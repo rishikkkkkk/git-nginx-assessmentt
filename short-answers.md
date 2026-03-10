@@ -9,12 +9,13 @@ staging area - area where temporary changes or pre commit .
 repository area - where all commits are saved and stored.
 
 ## Q3. What is a merge conflict and what causes it? Describe the steps you take to resolve one, referencing the conflict markers Git inserts into files. 
+
 merge conflict is a conflict which occurs during merging two branches. it is caused generally due to the modification of same part of the same file.
 to slove it in team we have to discuss with the other dev that thsi changes are good after finialising one we can slove it
 conflict markers 
-<<<<<<<< HEAD
-=========
->>>>>>>>>> branch-name
+#### <<<<<<<< HEAD
+#### =========
+#### >>>>>>>>>> branch-name
 
 ## Q4. What is the purpose of the .gitignore file? Give two examples of file types or directories commonly ignored in a Python or Node.js project and explain why. 
 gitignore file basically tell git to ignore the files or packages which are mentioned in it.
@@ -41,4 +42,5 @@ it helps in traffic inspection , routing and in load balancing also.
 
 ## Q10. What does the try_files $uri $uri/ =404 directive do inside a location block? Walk through what NGINX checks at each stage of that directive for a request to /about. 
 it checks that the particular files exists or not. if it not exist it gives 404 error.
+
 404 is a not found error.
